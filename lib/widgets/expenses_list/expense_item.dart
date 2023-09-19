@@ -15,8 +15,14 @@ class ExpenseItem extends StatelessWidget {
           vertical: 16,
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(expense.titel),
+            Text(
+              expense.titel,
+              style: Theme.of(context)
+                  .textTheme
+                  .titleLarge, //Accessing general theme from main.dart
+            ),
             const SizedBox(height: 4),
             Row(
               children: [

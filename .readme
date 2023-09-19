@@ -1,0 +1,5 @@
+Features in the App:
+1. Adding and removing list items, device storage.
+2. Fallback message (0 list item is present).
+3. Setting central theme for app, which will be easy to apply by reference to any widget.
+4. Dark mode.
